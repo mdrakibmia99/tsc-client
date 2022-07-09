@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AddTecher = () => {
+const AddTeacher = () => {
     return (
         <div>
             Add teacher
@@ -8,4 +8,4 @@ const AddTecher = () => {
     );
 };
 
-export default AddTecher;
+export default AddTeacher;
