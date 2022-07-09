@@ -1,10 +1,15 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Dashboard from './Routes/Dashboard/Dashboard';
+
 
 function App() {
   return (
-    <div className="App">
-      Student teacher center project init
+    <div>
+      <Routes>
+        <Route index element={<Dashboard></Dashboard>}></Route>
+      </Routes>
     </div>
   );
 }
